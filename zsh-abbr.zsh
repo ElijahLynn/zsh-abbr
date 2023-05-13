@@ -1051,8 +1051,8 @@ _abbr_integrations() {
   _abbr_debugger
   
   # Support zsh-users/zsh-autosuggestions
-  typeset -ga ZSH_AUTOSUGGEST_CLEAR_WIDGETS
-  ZSH_AUTOSUGGEST_CLEAR_WIDGETS+=( abbr-expand-and-accept )
+  # typeset -ga ZSH_AUTOSUGGEST_CLEAR_WIDGETS
+  # ZSH_AUTOSUGGEST_CLEAR_WIDGETS+=( abbr-expand-and-accept )
 }
 
 _abbr_no_color() {
