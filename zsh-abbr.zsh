@@ -1137,10 +1137,6 @@ _abbr_init() {
         #   _abbr_warn_deprecation deprecated_fn fn
         #   fn
         # }
-        _abbr_init() {
-          _abbr_warn_deprecation _abbr_init
-        }
-
         _abbr_integrations() {
           emulate -LR zsh
 
